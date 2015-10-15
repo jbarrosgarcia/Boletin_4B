@@ -16,7 +16,7 @@ public Consume  (float km,float lit,float vMe,float pGa ){
 }
 public float getTempo(){
    float tiempo=0f;
-   tiempo=vMed/this.km;
+   tiempo=this.vMed/this.km;
    return tiempo;
 }
 public void setKm(float km){
