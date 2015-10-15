@@ -44,4 +44,8 @@ public float getVMed(){
     float vMedia=this.vMed;
     return vMedia;
 }
+public float consuMedEu(){
+    float consEur=this.pGas*this.getConM();
+            return consEur;
+}
 }
